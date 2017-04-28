@@ -23,6 +23,7 @@
     <servlet>
         <servlet-name>Hotel</servlet-name>
         <servlet-class>Controlador.Hotel</servlet-class>
+    </servlet>
     
     <servlet-mapping>
         <servlet-name>Hello</servlet-name>
