@@ -46,27 +46,27 @@
     </servlet>
     <servlet-mapping>
         <servlet-name>Home</servlet-name>
-        <url-pattern>Home</url-pattern>
+        <url-pattern>/Home</url-pattern>
     </servlet-mapping>
     <servlet-mapping>
         <servlet-name>Grupo</servlet-name>
-        <url-pattern>Grupo</url-pattern>
+        <url-pattern>/Grupo</url-pattern>
     </servlet-mapping>
     <servlet-mapping>
         <servlet-name>Alquiler</servlet-name>
-        <url-pattern>Alquiler</url-pattern>
+        <url-pattern>/Alquiler</url-pattern>
     </servlet-mapping>
     <servlet-mapping>
         <servlet-name>Personas</servlet-name>
-        <url-pattern>Personas</url-pattern>
+        <url-pattern>/Personas</url-pattern>
     </servlet-mapping>
     <servlet-mapping>
         <servlet-name>Disponibilidad</servlet-name>
-        <url-pattern>Disponibilidad</url-pattern>
+        <url-pattern>/Disponibilidad</url-pattern>
     </servlet-mapping>
     <servlet-mapping>
         <servlet-name>Habitacion</servlet-name>
-        <url-pattern>Habitacion</url-pattern>
+        <url-pattern>/Habitacion</url-pattern>
     </servlet-mapping>
    <session-config>
         <session-timeout>
