@@ -65,7 +65,7 @@ public class Grupo extends HttpServlet {
                             + "  \n"
                             + "</head>\n"
                             + "<body>\n"
-                            + " <form class='contacto'  method=\"post\" action=\"Proveedores\" name=\"Proveedores\">\n"
+                            + " <form class='contacto'  method=\"post\" action=\"Grupo\" name=\"Grupo\">\n"
                             + "\n"
                             + "<tbody>\n"
                             + "\n"
