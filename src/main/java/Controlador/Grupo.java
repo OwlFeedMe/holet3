@@ -44,10 +44,10 @@ public class Grupo extends HttpServlet {
                         && idHotel != null && !idHotel.equalsIgnoreCase("")
                         && idAlquiler != null && !idAlquiler.equalsIgnoreCase("")) {
 
-//                bd.conectar();
-//                s = bd.agregar(Integer.valueOf(idGrupo), Integer.valueOf(idHotel), Integer.valueOf(idAlquiler), Integer.valueOf(NumPer));
-//                bd.desconectar();
-response.sendRedirect("Home.html");
+                bd.conectar();
+                s = bd.agregar(Integer.valueOf(idGrupo), Integer.valueOf(idHotel), Integer.valueOf(idAlquiler), Integer.valueOf(NumPer));
+                bd.desconectar();
+
                 } else {
                     response.sendRedirect("Grupo.html");
                 }
