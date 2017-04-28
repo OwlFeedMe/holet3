@@ -29,7 +29,11 @@ public class Grupo extends HttpServlet  {
         int s = 2;
         try (PrintWriter out = response.getWriter()) {
             /* TODO output your page here. You may use following sample code. */
+String boton = request.getParameter("Boton");
 
+            if (boton.equals("Ok")) {
+                
+            
             //Guardando los valores en variables  
             String idGrupo = request.getParameter("idgrupo");
             String idHotel = request.getParameter("idhotel");
@@ -86,7 +90,7 @@ public class Grupo extends HttpServlet  {
                         + "</body></html>");
 
             }
-        }
+        }}
     }
 
     // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">
