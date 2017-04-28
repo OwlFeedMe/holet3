@@ -24,53 +24,10 @@
         <servlet-name>Home</servlet-name>
         <servlet-class>Controlador.Home</servlet-class>
     </servlet>
-    <servlet>
-        <servlet-name>Hotel</servlet-name>
-        <servlet-class>Controlador.Hotel</servlet-class>
-    </servlet>
-    <servlet>
-        <servlet-name>Alquiler</servlet-name>
-        <servlet-class>Controlador.Alquiler</servlet-class>
-    </servlet>
-    <servlet>
-        <servlet-name>Personas</servlet-name>
-        <servlet-class>Controlador.Personas</servlet-class>
-    </servlet>
-    <servlet>
-        <servlet-name>Habitacion</servlet-name>
-        <servlet-class>Controlador.Habitacion</servlet-class>
-    </servlet>
-    <servlet>
-        <servlet-name>Disponibilidad</servlet-name>
-        <servlet-class>Controlador.Disponibilidad</servlet-class>
-    </servlet>
+    
     <servlet-mapping>
         <servlet-name>Home</servlet-name>
         <url-pattern>/Home</url-pattern>
-    </servlet-mapping>
-    <servlet-mapping>
-        <servlet-name>Grupo</servlet-name>
-        <url-pattern>/Grupo</url-pattern>
-    </servlet-mapping>
-    <servlet-mapping>
-        <servlet-name>Alquiler</servlet-name>
-        <url-pattern>/Alquiler</url-pattern>
-    </servlet-mapping>
-    <servlet-mapping>
-        <servlet-name>Personas</servlet-name>
-        <url-pattern>/Personas</url-pattern>
-    </servlet-mapping>
-    <servlet-mapping>
-        <servlet-name>Disponibilidad</servlet-name>
-        <url-pattern>/Disponibilidad</url-pattern>
-    </servlet-mapping>
-    <servlet-mapping>
-        <servlet-name>Habitacion</servlet-name>
-        <url-pattern>/Habitacion</url-pattern>
-    </servlet-mapping>
-   <session-config>
-        <session-timeout>
-            30
-        </session-timeout>
-    </session-config>
+    
+   
 </web-app>
