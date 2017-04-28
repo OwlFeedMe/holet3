@@ -29,9 +29,9 @@ public class Grupo extends HttpServlet {
         int s = 2;
         try (PrintWriter out = response.getWriter()) {
             /* TODO output your page here. You may use following sample code. */
-            String boton = request.getParameter("Boton");
+            
 
-            if (boton.equals("Ok")) {
+            
 
                 //Guardando los valores en variables  
                 String idGrupo = request.getParameter("idgrupo");
@@ -47,6 +47,7 @@ public class Grupo extends HttpServlet {
 //                bd.conectar();
 //                s = bd.agregar(Integer.valueOf(idGrupo), Integer.valueOf(idHotel), Integer.valueOf(idAlquiler), Integer.valueOf(NumPer));
 //                bd.desconectar();
+response.sendRedirect("Home.html");
                 } else {
                     response.sendRedirect("Grupo.html");
                 }
@@ -85,7 +86,7 @@ public class Grupo extends HttpServlet {
 
                 }
             }
-        }
+        
     }
 
     // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">
