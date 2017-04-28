@@ -47,7 +47,7 @@
     
     <servlet-mapping>
         <servlet-name>Home</servlet-name>
-        <url-pattern>/Home.html</url-pattern>
+        <url-pattern>/Home</url-pattern>
     </servlet-mapping>
    <servlet-mapping>
         <servlet-name>Hotel</servlet-name>
