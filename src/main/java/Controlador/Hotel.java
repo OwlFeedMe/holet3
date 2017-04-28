@@ -59,7 +59,7 @@ public class Hotel extends HttpServlet {
                         + "<meta content=\"text/html; charset=ISO-8859-1\" http-equiv=\"content-type\"><title>Hotel</title>\n"
                         + "\n"
                         + "</head><body>\n"
-                        + "<form method=\"post\" action=\"Proveedores\" name=\"Proveedores\">\n"
+                        + "<form method=\"post\" action=\"Hotel\" name=\"Hotel\">\n"
                         + "<table style=\"text-align: left; width: 100px;\" border=\"1\" cellpadding=\"2\" cellspacing=\"2\">\n"
                         + "<tbody>\n"
                         + "\n"

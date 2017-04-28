@@ -24,6 +24,10 @@
         <servlet-name>Hotel</servlet-name>
         <servlet-class>Controlador.Hotel</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>Alquiler</servlet-name>
+        <servlet-class>Controlador.Alquiler</servlet-class>
+    </servlet>
     
     <servlet-mapping>
         <servlet-name>Hello</servlet-name>
@@ -37,6 +41,10 @@
    <servlet-mapping>
         <servlet-name>Hotel</servlet-name>
         <url-pattern>/Hotel</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Alquiler</servlet-name>
+        <url-pattern>/Alquiler</url-pattern>
     </servlet-mapping>
     
 </web-app>
